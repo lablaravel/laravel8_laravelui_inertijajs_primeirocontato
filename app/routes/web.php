@@ -22,6 +22,4 @@ Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
-Route::get('/oi', function(){
-    return view('frontend.index');
-});
+Route::get('/oi', [App\Http\Controllers\OiController::class, 'index'])->name('frontend.index');
