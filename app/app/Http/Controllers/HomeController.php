@@ -27,11 +27,7 @@ class HomeController extends Controller
     public function index()
     {
         return Inertia::render('Home',[
-            'user' => User::all()->map(function ($user){
-                return [
-                    'email' => $user->email,
-                ];
-            }),
+            'user' => User::all()->first()
 
         ]);
     }

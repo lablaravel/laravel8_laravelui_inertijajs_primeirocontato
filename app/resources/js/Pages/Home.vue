@@ -1,6 +1,6 @@
 <template>
     <div id="app">
-       O seu e-mail é {{ user }}
+       O seu e-mail cadastrado {{ user.email}}
 
     </div>
 </template>
