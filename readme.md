@@ -1,6 +1,6 @@
 # Sobre o projeto
 
-Estrutura inicial para desenvolver com laravel usando o docker.
+Criando um projeto com laravel 8 e o Laravel/UI com Inertia.js
 
 # Sobre o código
 * [Laravel 8](https://laravel.com/docs/8.x/releases)
