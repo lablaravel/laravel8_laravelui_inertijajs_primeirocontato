@@ -1,6 +1,6 @@
 <template>
     <div id="app">
-        Aqui ->  {{message}}
+       O seu e-mail é {{ user }}
 
     </div>
 </template>
@@ -8,12 +8,10 @@
 <script>
 
 export default {
-   data: function () {
-       return {
-           message : "oi"
-       }
+   props: {
+       user: String
    }
-}
+};
 
 </script>
 
