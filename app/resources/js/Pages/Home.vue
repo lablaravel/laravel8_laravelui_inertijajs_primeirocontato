@@ -1,7 +1,11 @@
 <template>
-    <div id="app">
-       O seu e-mail cadastrado {{ user.email}}
-
+    <div>
+        <div>
+            <b-jumbotron header="Exibindo com sucesso" lead="Usando vue-boostrap com Inertia.js">
+                <p>O seu e-mail cadastrado</p>
+                <b-button variant="primary" href="#">{{ user.email }}</b-button>
+            </b-jumbotron>
+        </div>
     </div>
 </template>
 

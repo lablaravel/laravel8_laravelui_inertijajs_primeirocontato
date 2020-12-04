@@ -2959,6 +2959,10 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   props: {
     user: String
@@ -53624,8 +53628,30 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c("div", { attrs: { id: "app" } }, [
-    _vm._v("\n   O seu e-mail cadastrado " + _vm._s(_vm.user.email) + "\n\n")
+  return _c("div", [
+    _c(
+      "div",
+      [
+        _c(
+          "b-jumbotron",
+          {
+            attrs: {
+              header: "Exibindo com sucesso",
+              lead: "Usando vue-boostrap com Inertia.js"
+            }
+          },
+          [
+            _c("p", [_vm._v("O seu e-mail cadastrado")]),
+            _vm._v(" "),
+            _c("b-button", { attrs: { variant: "primary", href: "#" } }, [
+              _vm._v(_vm._s(_vm.user.email))
+            ])
+          ],
+          1
+        )
+      ],
+      1
+    )
   ])
 }
 var staticRenderFns = []
