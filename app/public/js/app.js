@@ -2959,13 +2959,13 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
-//
-//
-//
-//
-/* harmony default export */ __webpack_exports__["default"] = ({});
+/* harmony default export */ __webpack_exports__["default"] = ({
+  data: function data() {
+    return {
+      message: "oi"
+    };
+  }
+});
 
 /***/ }),
 
@@ -53626,28 +53626,8 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c("div", [
-    _c(
-      "div",
-      [
-        _c("b-button", [_vm._v("Button")]),
-        _vm._v(" "),
-        _c("b-button", { attrs: { variant: "danger" } }, [_vm._v("Button")]),
-        _vm._v(" "),
-        _c("b-button", { attrs: { variant: "success" } }, [_vm._v("Button")]),
-        _vm._v(" "),
-        _c("b-button", { attrs: { variant: "outline-primary" } }, [
-          _vm._v("Button")
-        ])
-      ],
-      1
-    ),
-    _vm._v(" "),
-    _c(
-      "button",
-      { staticClass: "btn btn-primary", attrs: { type: "button" } },
-      [_vm._v("sdsd")]
-    )
+  return _c("div", { attrs: { id: "app" } }, [
+    _vm._v("\n    Aqui ->  " + _vm._s(_vm.message) + "\n\n")
   ])
 }
 var staticRenderFns = []
@@ -65824,14 +65804,15 @@ webpackContext.id = "./resources/js/Pages sync recursive ^\\.\\/.*$";
 /*!*************************************!*\
   !*** ./resources/js/Pages/Home.vue ***!
   \*************************************/
-/*! exports provided: default */
+/*! no static exports found */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _Home_vue_vue_type_template_id_6a63e488___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Home.vue?vue&type=template&id=6a63e488& */ "./resources/js/Pages/Home.vue?vue&type=template&id=6a63e488&");
 /* harmony import */ var _Home_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Home.vue?vue&type=script&lang=js& */ "./resources/js/Pages/Home.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _Home_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__) if(["default"].indexOf(__WEBPACK_IMPORT_KEY__) < 0) (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _Home_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__[key]; }) }(__WEBPACK_IMPORT_KEY__));
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
 
 
 
@@ -65861,7 +65842,7 @@ component.options.__file = "resources/js/Pages/Home.vue"
 /*!**************************************************************!*\
   !*** ./resources/js/Pages/Home.vue?vue&type=script&lang=js& ***!
   \**************************************************************/
-/*! exports provided: default */
+/*! no static exports found */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -65943,8 +65924,8 @@ new vue__WEBPACK_IMPORTED_MODULE_2___default.a({
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /home/pwcodigo/Dropbox/11-Devcode/Study/laraveluioito/app/resources/js/app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! /home/pwcodigo/Dropbox/11-Devcode/Study/laraveluioito/app/resources/sass/app.scss */"./resources/sass/app.scss");
+__webpack_require__(/*! /var/www/resources/js/app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! /var/www/resources/sass/app.scss */"./resources/sass/app.scss");
 
 
 /***/ })

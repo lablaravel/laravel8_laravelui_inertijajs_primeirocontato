@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Inertia\Inertia;
+use App\Models\User;
 
 class HomeController extends Controller
 {
@@ -25,6 +26,13 @@ class HomeController extends Controller
      */
     public function index()
     {
-        return Inertia::render('Home');
+        return Inertia::render('Home',[
+            'users' => User::all()->map(function ($user){
+                return [
+                    'email' => $user->email,
+                ];
+            }),
+
+        ]);
     }
 }
