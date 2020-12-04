@@ -107,6 +107,8 @@
       <path value="$PROJECT_DIR$/app/vendor/filp/whoops" />
       <path value="$PROJECT_DIR$/app/vendor/theseer/tokenizer" />
       <path value="$PROJECT_DIR$/app/vendor/psy/psysh" />
+      <path value="$PROJECT_DIR$/app/vendor/laravel/ui" />
+      <path value="$PROJECT_DIR$/app/vendor/inertiajs/inertia-laravel" />
     </include_path>
   </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="7.3" />
